@@ -54,7 +54,7 @@ export default class App extends Component<Props> {
         <Text style={styles.instructions}>{instructions}</Text>
         <View>
           <Button 
-           onClick={() => sendEventString({event: 'button_click', str: 'clicked'})}
+           onPress={() => sendEventString({event: 'button_click', str: 'clicked'})}
            title='Event'/>
         </View>
       </View>
